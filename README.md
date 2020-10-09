@@ -30,11 +30,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+The reason we use react js because it solves the problem of us having to use create element every single time we want a new element but with React js we use jsx to actually write the html in the jsx, also it is much easier to organize your sections by components different js file that do different things for example a section for the data that is being rendered onto the page.
+
 1. Describe component state.
+
+  It is plain javascript objects while they both hold information that influences the output of the render.
 
 1. Describe props.
 
+  Props are arguments passed in React components, they are passed to components via Html attributes.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+  Side effects is anything that affects something outside the scope of the function being executed. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 

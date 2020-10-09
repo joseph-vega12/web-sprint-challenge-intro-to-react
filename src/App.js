@@ -2,7 +2,12 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import Character from "./components/Character"
 import axios from "axios";
+import styled from "styled-components";
 
+const Heading = styled.h1`
+font-size: 50px; 
+margin-top: 5%;
+`
 const App = () => {
   const [character, setCharacters] = useState([]);
 
@@ -28,7 +33,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <Heading className="Header">Characters</Heading>
       <Character character={character} />
     </div>
   );
